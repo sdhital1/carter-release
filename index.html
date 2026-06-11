@@ -27,38 +27,19 @@
 
     .rn-header {
       padding: 52px clamp(24px, 6vw, 80px) 48px;
-      background: var(--blue);
-      position: relative;
-      overflow: hidden;
-    }
-    .rn-header::before {
-      content: '';
-      position: absolute;
-      top: -60px; right: -80px;
-      width: 380px; height: 380px;
-      border-radius: 50%;
-      background: rgba(255,255,255,.06);
-    }
-    .rn-header::after {
-      content: '';
-      position: absolute;
-      bottom: -90px; right: 140px;
-      width: 260px; height: 260px;
-      border-radius: 50%;
-      background: rgba(255,255,255,.04);
+      background: #F8FAFC;
+      border-bottom: 1px solid var(--line);
     }
     .rn-header h1 {
       font-size: clamp(28px, 4vw, 42px);
       font-weight: 800;
       letter-spacing: -.03em;
-      color: #fff;
+      color: var(--ink);
       margin-bottom: 14px;
-      position: relative;
-      z-index: 1;
     }
     .rn-header p {
       font-size: clamp(14px, 1.5vw, 16px);
-      color: rgba(255,255,255,.78);
+      color: var(--muted);
       line-height: 1.7;
       max-width: 58ch;
       position: relative;
@@ -73,8 +54,8 @@
 
     .rn-sidebar {
       padding: 32px 28px;
-      border-right: 1px solid var(--line);
-      background: #fff;
+      border-right: 1px solid #E2E6EF;
+      background: #F8FAFC;
     }
     .rn-sidebar-label {
       font-size: 11px;
@@ -227,7 +208,7 @@
   </div>
 
   <footer>
-    &copy; 2026 Carter. All rights reserved.
+    &copy; Carter. All rights reserved.
   </footer>
 
 </body>
